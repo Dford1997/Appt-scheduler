@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚗 Direct Auto Ocean Springs - Appointment Scheduler 🚗</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        main {
+            padding: 2rem;
+            max-width: 600px;
+            margin: 2rem auto;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            border: 3px dashed #ff9a9e;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #444;
+        }
+        input, select, button {
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 2px solid #ff9a9e;
+            border-radius: 8px;
+            background: #fefefe;
+            transition: transform 0.2s ease-in-out;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #fad0c4;
+            box-shadow: 0 0 10px #fad0c4;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+        .inventory {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .inventory-item {
+            border: 2px solid #ff9a9e;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+        }
+        .inventory-item:hover {
+            transform: scale(1.05);
+        }
+        .inventory-item img {
+            width: 100%;
+            height: auto;
+        }
+        .inventory-item p {
+            text-align: center;
+            padding: 0.5rem;
+            background: #ff9a9e;
+            color: #fff;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚗 Direct Auto - Ocean Springs 🚗</h1>
+        <p>Schedule an Appointment with Your Trusted Car Salesman 😊</p>
+    </header>
+    <main>
+        <form id="appointmentForm">
+            <label for="name">👤 Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">📧 Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="date">📅 Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">⏰ Select Time:</label>
+            <select id="time" name="time" required>
+                <optgroup label="Weekdays">
+                    <option value="9:00 AM">9:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                    <option value="1:00 PM">1:00 PM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="3:00 PM">3:00 PM</option>
+                    <option value="4:00 PM">4:00 PM</option>
+                </optgroup>
+                <optgroup label="Saturday">
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="11:00 AM">11:00 AM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                    <option value="1:00 PM">1:00 PM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="3:00 PM">3:00 PM</option>
+                </optgroup>
+            </select>
+
+            <button type="submit">📅 Schedule Appointment</button>
+        </form>
+
+        <section class="inventory">
+            <div class="inventory-item">
+                <img src="https://www.directautoms.com/images/vehicles/2022-hyundai-palisade.jpg" alt="2022 Hyundai Palisade">
+                <p>2022 Hyundai Palisade</p>
+            </div>
+            <div class="inventory-item">
+                <img src="https://www.directautoms.com/images/vehicles/2020-honda-accord.jpg" alt="2020 Honda Accord">
+                <p>2020 Honda Accord</p>
+            </div>
+            <div class="inventory-item">
+                <img src="https://www.directautoms.com/images/vehicles/2020-dodge-charger.jpg" alt="2020 Dodge Charger">
+                <p>2020 Dodge Charger</p>
+            </div>
+            <div class="inventory-item">
+                <img src="https://www.directautoms.com/images/vehicles/2023-dodge-charger.jpg" alt="2023 Dodge Charger">
+                <p>2023 Dodge Charger</p>
+            </div>
+            <div class="inventory-item">
+                <img src="https://
+::contentReference[oaicite:0]{index=0}
+ 
